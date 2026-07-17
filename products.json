@@ -1,0 +1,1038 @@
+[
+  {
+    "category": "Decorative",
+    "subcategory": "Emulsion (Water-Based)",
+    "code": "C02AA",
+    "name": "Crown Covermatt Emulsion",
+    "description": "Economical matt emulsion for interior and exterior walls. Brilliant White, Soft White & Cream.",
+    "image": "assets/products/crown-emulsion-water-based/crown-covermatt-white-20l.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 4908
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 1060
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 380
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Emulsion (Water-Based)",
+    "code": "C13AG",
+    "name": "Crown Undercoat Emulsion (Exterior/Interior)",
+    "description": "Emulsion-based undercoat for smooth top-coat finish on walls.",
+    "image": "assets/products/crown-emulsion-water-based/crown-emulsion-undercoat-white.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 3822
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 764
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Emulsion (Water-Based)",
+    "code": "C03AH",
+    "name": "Crown Medicryl Silk Vinyl Emulsion",
+    "description": "Anti-bacterial silk sheen emulsion, ideal for kitchens, hospitals, and high-hygiene spaces.",
+    "image": "assets/products/crown-emulsion-water-based/crown-medicryl-anti-bacterial-silk-sheen-emulsion.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 14988
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2998
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 899
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Emulsion (Water-Based)",
+    "code": "C05AA",
+    "name": "Crown Permaplast Long Life Exterior Emulsion",
+    "description": "Long-life exterior emulsion built for Kenyan weather conditions. Brilliant White, Soft White & Cream.",
+    "image": "assets/products/crown-emulsion-water-based/crown-permaplast-soft-white-4l.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 16011
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 3202
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 960
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Emulsion (Water-Based)",
+    "code": "\u2014",
+    "name": "Crown Rock Master",
+    "description": "Premium exterior protective finish.",
+    "image": "assets/products/crown-emulsion-water-based/crown-rock-master.webp",
+    "prices": [],
+    "priceNote": "Contact us for current pricing"
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Emulsion (Water-Based)",
+    "code": "C21AN",
+    "name": "Crown Ruff N' Tuff",
+    "description": "Textured exterior wall finish, pastel shades.",
+    "image": "assets/products/crown-emulsion-water-based/crown-ruff-tuff.webp",
+    "prices": [],
+    "priceNote": "Contact us for current pricing"
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Emulsion (Water-Based)",
+    "code": "C03AA",
+    "name": "Crown Silk Vinyl Emulsion",
+    "description": "Silk-sheen interior emulsion. Brilliant White, Soft White & Cream.",
+    "image": "assets/products/crown-emulsion-water-based/crown-silk-vinyl-emulsion-white.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 14351
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2871
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 861
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Emulsion (Water-Based)",
+    "code": "C07AC",
+    "name": "Crown Transeal Clear Sealer",
+    "description": "Acrylic clear finish for brick, stone, and quarry tiles.",
+    "image": "assets/products/crown-emulsion-water-based/crown-transeal-silicone-clear-sealer.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 12095
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2419
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 744
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Emulsion (Water-Based)",
+    "code": "C61AD",
+    "name": "Crown Permacote Ultraguard Extreme",
+    "description": "Top-tier exterior silicone emulsion for extreme weather protection. Brilliant White, Soft White & Cream.",
+    "image": "assets/products/crown-emulsion-water-based/crown-ultraguard-protect-silicone-extreme.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 19773
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 3955
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 1187
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Emulsion (Water-Based)",
+    "code": "C61AA",
+    "name": "Crown Permacote Ultraguard with Silicone",
+    "description": "Silicone-enhanced exterior emulsion for long-lasting weatherproofing. Brilliant White, Soft White & Cream.",
+    "image": "assets/products/crown-emulsion-water-based/crown-ultraguard-silicone-brilliant-white-4l.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 16757
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 3351
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 1005
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Emulsion (Water-Based)",
+    "code": "C13AA",
+    "name": "Crown Economy Vesta Emulsion",
+    "description": "Budget-friendly emulsion for interior and exterior walls. Brilliant White, Soft White & Cream.",
+    "image": "assets/products/crown-emulsion-water-based/crown-vesta-plus-soft-white.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 2610
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 209
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Emulsion (Water-Based)",
+    "code": "C01AA",
+    "name": "Crown Vinyl Luxury Matt Emulsion",
+    "description": "Premium luxury matt finish for interior walls. Brilliant White, Soft White & Cream.",
+    "image": "assets/products/crown-emulsion-water-based/crown-vinyl-matt-emulsion-luxury-brilliant-white-4l.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 13411
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2682
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 804
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Floor Paints",
+    "code": "C21AI",
+    "name": "Crown Two-Pack Epoxy Floor Paint (Red Oxide)",
+    "description": "Durable epoxy floor coating, Red Oxide.",
+    "image": "assets/products/floor-paints/crown-concrete-floor-paint-red-oxide.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 6102
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Floor Paints",
+    "code": "C21AI",
+    "name": "Crown Two-Pack Epoxy Floor Paint (Green & Others)",
+    "description": "Durable epoxy floor coating for high-traffic areas.",
+    "image": "assets/products/floor-paints/crown-two-pack-epoxy-paint.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 6925
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Floor Paints",
+    "code": "C17AA",
+    "name": "Crown Vesta Regal Floor Paint",
+    "description": "Floor paint for residential and light-duty floors. Red Oxide, Green, Grey.",
+    "image": "assets/products/floor-paints/crown-vesta-regal-floor-paint.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 1498
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Gloss & Oil-Based",
+    "code": "C09AA",
+    "name": "Crown Eggshell Finish (Semi Gloss)",
+    "description": "Smooth semi-gloss interior finish. Brilliant White, Soft White & Cream.",
+    "image": "assets/products/gloss_oil-based/crown-eggshell-finish.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 18242
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 3648
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 1094
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Gloss & Oil-Based",
+    "code": "\u2014",
+    "name": "Crown Ngao Gloss",
+    "description": "Oil-based gloss finish.",
+    "image": "assets/products/gloss_oil-based/crown-ngao-gloss.webp",
+    "prices": [],
+    "priceNote": "Contact us for current pricing"
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Gloss & Oil-Based",
+    "code": "C08AA",
+    "name": "Crown Super Gloss",
+    "description": "High-gloss oil-based finish. Brilliant White, Soft White & Cream.",
+    "image": "assets/products/gloss_oil-based/crown-supergloss-cream.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 15803
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 3161
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 949
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Gloss & Oil-Based",
+    "code": "C14AA",
+    "name": "Crown Economy Vesta Gloss",
+    "description": "Budget gloss finish. Brilliant White, Soft White & Cream.",
+    "image": "assets/products/gloss_oil-based/crown-vesta-gloss-black.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 5670
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 1138
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 348
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Roof Paints",
+    "code": "C21AH",
+    "name": "Crown Roof Master (Self-Priming)",
+    "description": "Premium self-priming roof paint.",
+    "image": "assets/products/roof-paints/crown-roof-master-self-primming.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 20965
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 4193
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 1289
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Roof Paints",
+    "code": "C21AH",
+    "name": "Crown Roof Paint \u2014 Green",
+    "description": "Standard roof paint, Green shade.",
+    "image": "assets/products/roof-paints/crown-roof-paint-green.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 14842
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2968
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 890
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Roof Paints",
+    "code": "C21AH",
+    "name": "Crown Roof Paint \u2014 Grey",
+    "description": "Standard roof paint, Grey shade.",
+    "image": "assets/products/roof-paints/crown-roof-paint-grey.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 14842
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2968
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 890
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Roof Paints",
+    "code": "C21AH",
+    "name": "Crown Roof Paint \u2014 Red Oxide",
+    "description": "Standard roof paint, Red Oxide shade.",
+    "image": "assets/products/roof-paints/crown-roof-paint-red-oxide.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 14842
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2968
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 890
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Roof Paints",
+    "code": "C21AH",
+    "name": "Crown Economy Roof Paint \u2014 Cornflower",
+    "description": "Economy range roof paint. Red Oxide, Green, Cornflower.",
+    "image": "assets/products/roof-paints/crown-roofpaint-cornflower.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 1258
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Roof Paints",
+    "code": "C21AH",
+    "name": "Crown Roofdec (Self-Priming, Asphalt & Bitumen Roofs)",
+    "description": "For asphalt and bitumen-coated roofs.",
+    "image": "assets/products/roof-paints/crown-roofshield-self-priming.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 16593
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 3319
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 993
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Wood Finish",
+    "code": "C18AQ",
+    "name": "Crown Aquavar Varnish (Clear)",
+    "description": "Water-based clear varnish for wood.",
+    "image": "assets/products/wood-finish/crown-aquavar-varnish.webp",
+    "prices": [
+      {
+        "pack": "4/5 Ltrs",
+        "price": 4184
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Wood Finish",
+    "code": "C18AC",
+    "name": "Crown Multi-Purpose Clear Varnish",
+    "description": "General-purpose clear wood varnish.",
+    "image": "assets/products/wood-finish/crown-multi-purpose-clear-varnish.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 2253
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 675
+      },
+      {
+        "pack": "0.5 Ltr",
+        "price": 383
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Wood Finish",
+    "code": "C18AM",
+    "name": "Crown Oil Varnish Stains",
+    "description": "Wood stain varnish, 6 shades available.",
+    "image": "assets/products/wood-finish/crown-oil-varnish-stains.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 2146
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 643
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Wood Finish",
+    "code": "C18AB",
+    "name": "Crown Polyurethane Varnish (High Gloss)",
+    "description": "High-gloss polyurethane wood finish.",
+    "image": "assets/products/wood-finish/crown-polyurethane-clear-varnish.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 2899
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 870
+      },
+      {
+        "pack": "0.5 Ltr",
+        "price": 493
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Wood Finish",
+    "code": "C18AR",
+    "name": "Crown Timber Master",
+    "description": "Protective wood treatment.",
+    "image": "assets/products/wood-finish/crown-timber-master.webp",
+    "prices": [
+      {
+        "pack": "5 Ltrs",
+        "price": 3223
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Wood Finish",
+    "code": "C25AJ",
+    "name": "Crown Two-Pack Epoxy Varnish",
+    "description": "Heavy-duty two-pack epoxy wood varnish.",
+    "image": "assets/products/wood-finish/crown-two-pack-epoxy-varnish.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 6598
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 1979
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Wood Finish",
+    "code": "C18AF",
+    "name": "Crown Two-Pack Polyurethane Varnish (Gloss)",
+    "description": "Premium two-pack polyurethane gloss varnish.",
+    "image": "assets/products/wood-finish/crown-two-pack-polyurethane-varnish.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 6226
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 1961
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Wood Finish",
+    "code": "C18AB",
+    "name": "Crown Woodseal Polyurethane Varnish",
+    "description": "Sealing varnish for wood surfaces.",
+    "image": "assets/products/wood-finish/crown-wood-finish-polyurethane-woodseal.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 2899
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 870
+      },
+      {
+        "pack": "0.5 Ltr",
+        "price": 493
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Wood Finish",
+    "code": "C23AL",
+    "name": "Crown NC Sanding Sealer",
+    "description": "Sanding sealer for smooth wood prep before finishing.",
+    "image": "assets/products/wood-finish/crown-wood-finish-sanding-sealer.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 2229
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 613
+      }
+    ]
+  },
+  {
+    "category": "Decorative",
+    "subcategory": "Wood Finish",
+    "code": "C39AG",
+    "name": "Hymeg AD12 Insulating Varnish",
+    "description": "Specialized insulating varnish.",
+    "image": "assets/products/wood-finish/hymeg-ad12-insulating-varnish.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 5291
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "C20AH",
+    "name": "Crown Universal Alkali-Resisting Wall Primer",
+    "description": "Wall primer resistant to alkali, suited for new plaster/masonry.",
+    "image": "assets/products/primers/crown-alkali-resisting-chlorinated-rubber.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 11025
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2205
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 662
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "C20AB",
+    "name": "Crown Aluminium Wood Primer",
+    "description": "Primer for wood surfaces prior to top-coating.",
+    "image": "assets/products/primers/crown-aluminium-wood-primer.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 2968
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 890
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "C20AU",
+    "name": "Crown One-Pack Etch Primer",
+    "description": "Etch primer for metal surfaces.",
+    "image": "assets/products/primers/crown-one-pack-etch-primer.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 3552
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 1065
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "C20AF",
+    "name": "Crown Penetrating Primer",
+    "description": "Deep-penetrating primer for porous/chalky surfaces.",
+    "image": "assets/products/primers/crown-penetrating-primer.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 13556
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2226
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 669
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "C20AJ",
+    "name": "Crown Red Oxide Primer / Finish Glossy",
+    "description": "Red oxide anti-corrosive primer for metal.",
+    "image": "assets/products/primers/crown-red-oxide-primer-or-finsh-glossy.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 3045
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 914
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "C20AC",
+    "name": "Crown Solo Plus 3 Masonry Primer",
+    "description": "All-purpose masonry primer/sealer.",
+    "image": "assets/products/primers/crown-solo-plus-3-masonry-primer.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 14055
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2811
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 844
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "\u2014",
+    "name": "Crown Two-Pack Epoxy Zinc Chromate Primer",
+    "description": "Anti-corrosive zinc chromate primer for metal.",
+    "image": "assets/products/primers/crown-two-pack-epoxy-zinc-chromate.webp",
+    "prices": [],
+    "priceNote": "Contact us for current pricing"
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "C20AR / C20AS",
+    "name": "Crown Two-Pack Epoxy Zinc Phosphate Primer",
+    "description": "Anti-corrosive zinc phosphate primer, Red Oxide & Grey.",
+    "image": "assets/products/primers/crown-two-pack-epoxy-zinc-phosphate.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs (Red Oxide)",
+        "price": 1731
+      },
+      {
+        "pack": "4 Ltrs (Grey)",
+        "price": 1965
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "\u2014",
+    "name": "Crown Two-Pack Epoxy Zinc-Rich Primer",
+    "description": "Heavy-duty anti-corrosive primer for steel structures.",
+    "image": "assets/products/primers/crown-two-pack-epoxy-zinc-rich-primer.webp",
+    "prices": [],
+    "priceNote": "Contact us for current pricing"
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "\u2014",
+    "name": "Crown Vesta Regal Metal Primer",
+    "description": "Metal primer, economy range.",
+    "image": "assets/products/primers/crown-vesta-regal-metal-primer.webp",
+    "prices": [],
+    "priceNote": "Contact us for current pricing"
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "C20AA",
+    "name": "Crown White Wood Primer",
+    "description": "White primer for wood surfaces.",
+    "image": "assets/products/primers/crown-white-wood-primer.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 12720
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2364
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 709
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "\u2014",
+    "name": "Crown Zinc Chromate Metal Primer",
+    "description": "Anti-corrosive metal primer.",
+    "image": "assets/products/primers/crown-zinc-chromate-metal-primer.webp",
+    "prices": [],
+    "priceNote": "Contact us for current pricing"
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "C20AP",
+    "name": "Crown Zinc Phosphate Primer (Grey)",
+    "description": "Anti-corrosive zinc phosphate primer for metal.",
+    "image": "assets/products/primers/crown-zinc-phosphate-primer-grey.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 3699
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 1109
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Primers",
+    "code": "C20AJ",
+    "name": "Red Oxide Primer (Matt Finish)",
+    "description": "Matt-finish red oxide primer for metal.",
+    "image": "assets/products/primers/red-oxide-primer-matt-finish.webp",
+    "prices": [
+      {
+        "pack": "4 Ltrs",
+        "price": 2673
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 802
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Undercoats",
+    "code": "C19AB",
+    "name": "Crown Acrylic Primer Sealer Undercoat",
+    "description": "Acrylic-based primer/sealer/undercoat for walls.",
+    "image": "assets/products/undercoats/crown-acrylic-primer-or-sealer-or-undercoat.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 11365
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2273
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 682
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Undercoats",
+    "code": "C19AA",
+    "name": "Crown Universal Undercoat (High Opacity, Oil-Based)",
+    "description": "High-opacity universal undercoat for smooth top-coat application.",
+    "image": "assets/products/undercoats/crown-undercoat.webp",
+    "prices": [
+      {
+        "pack": "20 Ltrs",
+        "price": 12787
+      },
+      {
+        "pack": "4 Ltrs",
+        "price": 2557
+      },
+      {
+        "pack": "1 Ltr",
+        "price": 767
+      },
+      {
+        "pack": "0.5 Ltr",
+        "price": 517
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Undercoats",
+    "code": "\u2014",
+    "name": "Vesta Regal Emulsion Undercoat",
+    "description": "Economy emulsion undercoat.",
+    "image": "assets/products/undercoats/vesta-regal-emulsion-undercoat.webp",
+    "prices": [],
+    "priceNote": "Contact us for current pricing"
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Putties & Fillers",
+    "code": "C30AG",
+    "name": "Crown Gyplast",
+    "description": "Gypsum-based wall filler/finish.",
+    "image": "assets/products/pollyfilla/crown-gyplast.webp",
+    "prices": [
+      {
+        "pack": "Standard pack",
+        "price": 1843
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Putties & Fillers",
+    "code": "C30AE",
+    "name": "Crown Polyfilla",
+    "description": "All-purpose wall filler for cracks and holes.",
+    "image": "assets/products/pollyfilla/crown-polyfilla.webp",
+    "prices": [
+      {
+        "pack": "1x25 Kg",
+        "price": 5637
+      },
+      {
+        "pack": "2.5 Kg",
+        "price": 757
+      },
+      {
+        "pack": "0.5 Kg",
+        "price": 132
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Putties & Fillers",
+    "code": "C30AK",
+    "name": "Crown WP Cement Putty / Wallplast",
+    "description": "Cement-based wall putty for smooth, paint-ready surfaces.",
+    "image": "assets/products/wallcare/crown-paints-wallplast-cement-putty.webp",
+    "prices": [
+      {
+        "pack": "25 Kg",
+        "price": 1377
+      },
+      {
+        "pack": "2.5 Kg",
+        "price": 231
+      },
+      {
+        "pack": "1 Kg",
+        "price": 99
+      }
+    ]
+  },
+  {
+    "category": "Intermediate",
+    "subcategory": "Wallcare",
+    "code": "C30AD",
+    "name": "Crown Wallcare Acrylic Putty",
+    "description": "Acrylic wall putty for crack-resistant, smooth wall finishing.",
+    "image": "assets/products/wallcare/crown-wallcare.webp",
+    "prices": [
+      {
+        "pack": "30 Kg",
+        "price": 2415
+      },
+      {
+        "pack": "20 Kg",
+        "price": 1624
+      },
+      {
+        "pack": "5 Kg",
+        "price": 478
+      },
+      {
+        "pack": "2 Kg",
+        "price": 204
+      },
+      {
+        "pack": "1 Kg",
+        "price": 121
+      }
+    ]
+  }
+]

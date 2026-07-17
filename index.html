@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crown Paints — Colour Chart, Products & Ordering | Authorized Distributor</title>
+<meta name="description" content="Order Crown Paints online with WhatsApp checkout. Browse 1,000+ Crown colours, view products, and see your estimated delivery time to any county in Kenya.">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          crown: {
+            navy: '#2b2a7c',
+            'navy-dark': '#1f1e5c',
+            red: '#d11f23',
+            'red-dark': '#a8181b',
+            gold: '#c9a24a',
+            cream: '#fdfaf4',
+          },
+          text: {
+            dark: '#1c1c1e',
+            muted: '#5f6068',
+          }
+        },
+        fontFamily: {
+          sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'],
+        },
+        boxShadow: {
+          'sm': '0 2px 8px rgba(0, 0, 0, 0.06)',
+          'md': '0 8px 24px rgba(0, 0, 0, 0.10)',
+          'lg': '0 16px 40px rgba(0, 0, 0, 0.14)',
+        },
+        borderRadius: {
+          'DEFAULT': '14px',
+          'sm': '8px',
+        }
+      }
+    }
+  }
+</script>
+<style>
+  body { font-family: 'Inter', sans-serif; }
+  .hide-scrollbar::-webkit-scrollbar { display: none; }
+  .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+</style>
+</head>
+<body class="bg-crown-cream text-text-dark antialiased pb-20 md:pb-0">
+
+<!-- ============ TOP BAR ============ -->
+<div class="bg-crown-navy text-white text-xs md:text-sm">
+  <div class="max-w-6xl mx-auto px-4 py-2 flex flex-col md:flex-row justify-between items-center gap-1 md:gap-0">
+    <div class="flex items-center gap-2">🚚 Free delivery on orders above KES 10,000</div>
+    <div class="flex items-center gap-2">📍 Delivering to all 47 counties</div>
+    <div class="flex items-center gap-2">📞 Order via WhatsApp — fast & simple</div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="bg-white shadow-sm sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 py-3 md:py-4 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-2 md:gap-3">
+      <img src="assets/logo/crown-logo.webp" alt="Crown Paints Kenya PLC logo" class="h-8 md:h-10 w-auto">
+      <span class="font-bold text-lg md:text-xl text-crown-navy tracking-tight">Crown<span class="text-crown-red">Paints</span></span>
+    </a>
+
+    <nav class="hidden md:flex items-center gap-8">
+      <a href="colour-chart.html" class="font-semibold text-sm text-text-dark hover:text-crown-red border-b-2 border-transparent hover:border-crown-red transition-colors py-1">Colour Chart</a>
+      <a href="products.html" class="font-semibold text-sm text-text-dark hover:text-crown-red border-b-2 border-transparent hover:border-crown-red transition-colors py-1">Products</a>
+      <a href="#testimonials" class="font-semibold text-sm text-text-dark hover:text-crown-red border-b-2 border-transparent hover:border-crown-red transition-colors py-1">Reviews</a>
+      <a href="about.html" class="font-semibold text-sm text-text-dark hover:text-crown-red border-b-2 border-transparent hover:border-crown-red transition-colors py-1">About</a>
+      <a href="#delivery" class="font-semibold text-sm text-text-dark hover:text-crown-red border-b-2 border-transparent hover:border-crown-red transition-colors py-1">Delivery</a>
+    </nav>
+
+    <div class="hidden md:flex items-center gap-3">
+      <a href="#delivery" class="px-4 py-2 border-2 border-crown-navy text-crown-navy font-semibold text-sm rounded-lg hover:bg-crown-navy hover:text-white transition-all">Check Delivery Time</a>
+      <a href="https://wa.me/254700000000?text=Hi%2C%20I%27d%20like%20to%20order%20Crown%20Paints" class="px-4 py-2 bg-[#25d366] text-white font-semibold text-sm rounded-lg hover:bg-[#1ebe57] transition-all flex items-center gap-2" target="_blank" rel="noopener">
+        WhatsApp Us
+      </a>
+    </div>
+
+    <button class="md:hidden flex flex-col gap-1.5 p-2" id="mobile-menu-btn" aria-label="Toggle menu">
+      <span class="w-6 h-0.5 bg-crown-navy rounded"></span>
+      <span class="w-6 h-0.5 bg-crown-navy rounded"></span>
+      <span class="w-6 h-0.5 bg-crown-navy rounded"></span>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="hidden md:hidden border-t border-gray-200 bg-white" id="mobile-menu">
+    <nav class="flex flex-col px-4 py-3 gap-2">
+      <a href="colour-chart.html" class="py-3 px-4 font-semibold text-text-dark hover:bg-gray-50 rounded-lg">Colour Chart</a>
+      <a href="products.html" class="py-3 px-4 font-semibold text-text-dark hover:bg-gray-50 rounded-lg">Products</a>
+      <a href="#testimonials" class="py-3 px-4 font-semibold text-text-dark hover:bg-gray-50 rounded-lg">Reviews</a>
+      <a href="about.html" class="py-3 px-4 font-semibold text-text-dark hover:bg-gray-50 rounded-lg">About</a>
+      <a href="#delivery" class="py-3 px-4 font-semibold text-text-dark hover:bg-gray-50 rounded-lg">Delivery</a>
+      <div class="flex flex-col gap-2 mt-2 pt-2 border-t border-gray-200">
+        <a href="#delivery" class="py-3 px-4 border-2 border-crown-navy text-crown-navy font-semibold text-center rounded-lg">Check Delivery Time</a>
+        <a href="https://wa.me/254700000000?text=Hi%2C%20I%27d%20like%20to%20order%20Crown%20Paints" class="py-3 px-4 bg-[#25d366] text-white font-semibold text-center rounded-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="relative min-h-[500px] md:min-h-[580px] flex items-center overflow-hidden">
+  <img src="assets/hero/hero.webp" alt="A freshly painted living room finished with Crown Paints" class="absolute inset-0 w-full h-full object-cover">
+  <div class="absolute inset-0 bg-gradient-to-r from-[rgba(20,20,50,0.85)] via-[rgba(20,20,50,0.6)] to-[rgba(20,20,50,0.15)]"></div>
+  <div class="relative z-10 max-w-6xl mx-auto px-4 py-16 md:py-20">
+    <div class="max-w-xl md:max-w-2xl">
+      <span class="inline-flex items-center gap-2 bg-white/12 border border-white/25 px-4 py-2 rounded-full text-white text-xs md:text-sm font-semibold backdrop-blur-sm mb-4 md:mb-5">
+        ✓ Authorized Crown Paints Distributor
+      </span>
+      <h1 class="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4 md:mb-5 tracking-tight">
+        Find your colour. <span class="text-crown-gold">Order on WhatsApp.</span> We deliver.
+      </h1>
+      <p class="text-base md:text-lg text-white/90 mb-6 md:mb-8 max-w-md">
+        Browse over 1,000 Crown Paints colours, get a price instantly, and order straight from WhatsApp — delivered to any county in Kenya.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 md:gap-4 mb-8 md:mb-10">
+        <a href="colour-chart.html" class="px-6 py-4 bg-crown-red text-white font-semibold text-sm md:text-base rounded-lg hover:bg-crown-red-dark transition-all shadow-sm text-center">
+          Explore the Colour Chart
+        </a>
+        <a href="#delivery" class="px-6 py-4 border-2 border-white text-white font-semibold text-sm md:text-base rounded-lg hover:bg-white hover:text-crown-navy transition-all text-center">
+          Check Delivery Time
+        </a>
+      </div>
+      <div class="flex gap-6 md:gap-8 flex-wrap">
+        <div class="flex flex-col">
+          <strong class="text-xl md:text-2xl font-extrabold text-crown-gold">1,000+</strong>
+          <span class="text-xs md:text-sm text-white/85">Crown colour options</span>
+        </div>
+        <div class="flex flex-col">
+          <strong class="text-xl md:text-2xl font-extrabold text-crown-gold">47</strong>
+          <span class="text-xs md:text-sm text-white/85">Counties delivered to</span>
+        </div>
+        <div class="flex flex-col">
+          <strong class="text-xl md:text-2xl font-extrabold text-crown-gold">KES 10,000</strong>
+          <span class="text-xs md:text-sm text-white/85">Free delivery threshold</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COLOUR VISUALIZER TEASER ============ -->
+<section class="bg-white py-12 md:py-16 border-b border-gray-200">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center max-w-2xl mx-auto mb-8 md:mb-10">
+      <span class="inline-block text-crown-red font-bold text-xs md:text-sm tracking-widest uppercase mb-3 md:mb-4">Colour Chart</span>
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-extrabold text-crown-navy mb-3 md:mb-4 tracking-tight">Over 1,000 Crown colours</h2>
+      <p class="text-text-muted text-base md:text-lg">From soft neutrals to bold accents — find the exact shade for your space, then order it directly.</p>
+    </div>
+
+    <div class="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-12 gap-2 md:gap-3 max-w-4xl mx-auto mb-8 md:mb-10" id="swatch-strip">
+      <div class="aspect-square rounded-xl shadow-sm cursor-pointer hover:scale-105 hover:shadow-md transition-transform" style="background:#F8C125;" title="Sunray"></div>
+      <div class="aspect-square rounded-xl shadow-sm cursor-pointer hover:scale-105 hover:shadow-md transition-transform" style="background:#BAD860;" title="Meadow Daisy"></div>
+      <div class="aspect-square rounded-xl shadow-sm cursor-pointer hover:scale-105 hover:shadow-md transition-transform" style="background:#B6606C;" title="Dusty Rose"></div>
+      <div class="aspect-square rounded-xl shadow-sm cursor-pointer hover:scale-105 hover:shadow-md transition-transform" style="background:#2B2A7C;" title="Crown Navy"></div>
+      <div class="aspect-square rounded-xl shadow-sm cursor-pointer hover:scale-105 hover:shadow-md transition-transform" style="background:#D11F23;" title="Crown Red"></div>
+      <div class="aspect-square rounded-xl shadow-sm cursor-pointer hover:scale-105 hover:shadow-md transition-transform" style="background:#C9A24A;" title="Crown Gold"></div>
+      <div class="aspect-square rounded-xl shadow-sm cursor-pointer hover:scale-105 hover:shadow-md transition-transform" style="background:#7FB3A8;" title="Kenyan Turquoise"></div>
+      <div class="aspect-square rounded-xl shadow-sm cursor-pointer hover:scale-105 hover:shadow-md transition-transform" style="background:#E8D9C4;" title="Soft White"></div>
+      <div class="aspect-square rounded-xl shadow-sm cursor-pointer hover:scale-105 hover:shadow-md transition-transform" style="background:#A65E3B;" title="Terracotta"></div>
+      <div class="aspect-square rounded-xl shadow-sm cursor-pointer hover:scale-105 hover:shadow-md transition-transform" style="background:#5B7B9A;" title="Slate Blue"></div>
+      <div class="aspect-square rounded-xl shadow-sm cursor-pointer hover:scale-105 hover:shadow-md transition-transform" style="background:#E0A75E;" title="Mustard Yellow"></div>
+      <div class="aspect-square rounded-xl shadow-sm cursor-pointer hover:scale-105 hover:shadow-md transition-transform" style="background:#8C9A7C;" title="Sage Green"></div>
+    </div>
+
+    <div class="text-center">
+      <a href="colour-chart.html" class="inline-block px-6 py-3 md:px-8 md:py-4 bg-crown-red text-white font-semibold text-sm md:text-base rounded-lg hover:bg-crown-red-dark transition-all shadow-sm">
+        View the Full Colour Chart →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRODUCTS PREVIEW ============ -->
+<section class="bg-crown-cream py-12 md:py-16 border-b border-gray-200">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center max-w-2xl mx-auto mb-8 md:mb-10">
+      <span class="inline-block text-crown-red font-bold text-xs md:text-sm tracking-widest uppercase mb-3 md:mb-4">Products</span>
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-extrabold text-crown-navy mb-3 md:mb-4 tracking-tight">Popular Crown Paints Products</h2>
+      <p class="text-text-muted text-base md:text-lg">Browse our range of decorative and intermediate paints with transparent pricing.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 mb-8 md:mb-10" id="products-preview-grid"></div>
+    <div class="text-center">
+      <a href="products.html" class="inline-block px-6 py-3 md:px-8 md:py-4 border-2 border-crown-navy text-crown-navy font-semibold text-sm md:text-base rounded-lg hover:bg-crown-navy hover:text-white transition-all">
+        View All Products →
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CROWN PAINTS ============ -->
+<section class="bg-crown-cream py-12 md:py-16">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center max-w-2xl mx-auto mb-8 md:mb-10">
+      <span class="inline-block text-crown-red font-bold text-xs md:text-sm tracking-widest uppercase mb-3 md:mb-4">Why Order With Us</span>
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-extrabold text-crown-navy mb-3 md:mb-4 tracking-tight">A simpler way to shop for paint</h2>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+      <div class="bg-white rounded-xl p-6 md:p-7 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all text-center">
+        <div class="w-12 h-12 md:w-14 md:h-14 rounded-xl bg-gradient-to-br from-crown-navy to-crown-navy-dark flex items-center justify-center text-2xl md:text-3xl mx-auto mb-4">🎨</div>
+        <h3 class="text-base md:text-lg font-bold text-text-dark mb-2">1,000+ Colour Options</h3>
+        <p class="text-sm md:text-base text-text-muted">Explore a wide range of Crown shades and find the right finish for your space.</p>
+      </div>
+      <div class="bg-white rounded-xl p-6 md:p-7 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all text-center">
+        <div class="w-12 h-12 md:w-14 md:h-14 rounded-xl bg-gradient-to-br from-crown-navy to-crown-navy-dark flex items-center justify-center text-2xl md:text-3xl mx-auto mb-4">💬</div>
+        <h3 class="text-base md:text-lg font-bold text-text-dark mb-2">Order on WhatsApp</h3>
+        <p class="text-sm md:text-base text-text-muted">No accounts, no confusing checkout — just message us and confirm.</p>
+      </div>
+      <div class="bg-white rounded-xl p-6 md:p-7 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all text-center">
+        <div class="w-12 h-12 md:w-14 md:h-14 rounded-xl bg-gradient-to-br from-crown-navy to-crown-navy-dark flex items-center justify-center text-2xl md:text-3xl mx-auto mb-4">🚚</div>
+        <h3 class="text-base md:text-lg font-bold text-text-dark mb-2">All 47 Counties</h3>
+        <p class="text-sm md:text-base text-text-muted">Free delivery above KES 10,000, wherever you are in Kenya.</p>
+      </div>
+      <div class="bg-white rounded-xl p-6 md:p-7 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all text-center">
+        <div class="w-12 h-12 md:w-14 md:h-14 rounded-xl bg-gradient-to-br from-crown-navy to-crown-navy-dark flex items-center justify-center text-2xl md:text-3xl mx-auto mb-4">✅</div>
+        <h3 class="text-base md:text-lg font-bold text-text-dark mb-2">Trusted Supply</h3>
+        <p class="text-sm md:text-base text-text-muted">Crown Paints products supplied through approved channels.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="bg-white py-12 md:py-16" id="testimonials">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center max-w-2xl mx-auto mb-8 md:mb-10">
+      <span class="inline-block text-crown-red font-bold text-xs md:text-sm tracking-widest uppercase mb-3 md:mb-4">Customer Stories</span>
+      <h2 class="text-2xl md:text-3xl lg:text-4xl font-extrabold text-crown-navy mb-3 md:mb-4 tracking-tight">Homes, colours, and finishes that speak for themselves</h2>
+      <p class="text-text-muted text-base md:text-lg">A few of the transformations our customers have shared with us.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+
+      <!-- 1: Joseph O. — Nairobi — exterior turquoise -->
+      <div class="border border-gray-200 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col">
+        <img src="assets/testimonials/exterior-side-by-side.webp" alt="Exterior patio wall before and after, repainted from weathered cream to Kenyan Turquoise" class="w-full aspect-[16/10] object-cover bg-gray-100">
+        <div class="p-5 md:p-6 flex flex-col flex-1">
+          <span class="text-crown-gold text-sm mb-3">★★★★★</span>
+          <p class="text-sm md:text-base text-text-dark mb-4 flex-1">"Our patio wall had gone grey and weathered over the years. We repainted it in a vibrant Kenyan Turquoise and the contrast completely changed how the whole outdoor space feels in the evening."</p>
+          <div class="flex items-center gap-3 mt-auto">
+            <img src="assets/testimonials/dp3.webp" alt="Joseph O." class="w-11 h-11 rounded-full object-cover border-2 border-gray-200">
+            <div>
+              <div class="font-bold text-sm text-text-dark">Joseph O.</div>
+              <div class="text-xs md:text-sm text-text-muted">Nairobi</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2: Brian N. — Kisumu — bedroom mustard yellow -->
+      <div class="border border-gray-200 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col">
+        <img src="assets/testimonials/bedroom.webp" alt="Bedsitter bedroom before and after, repainted in Mustard Yellow" class="w-full aspect-[16/10] object-cover bg-gray-100">
+        <div class="p-5 md:p-6 flex flex-col flex-1">
+          <span class="text-crown-gold text-sm mb-3">★★★★★</span>
+          <p class="text-sm md:text-base text-text-dark mb-4 flex-1">"A single-room transformation on a renter's budget. One tin of Mustard Yellow completely changed how this bedsitter feels."</p>
+          <div class="flex items-center gap-3 mt-auto">
+            <img src="assets/testimonials/dp5.webp" alt="Brian N." class="w-11 h-11 rounded-full object-cover border-2 border-gray-200">
+            <div>
+              <div class="font-bold text-sm text-text-dark">Brian N.</div>
+              <div class="text-xs md:text-sm text-text-muted">Kisumu</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3: David K. — Eldoret — no image, specificity-only -->
+      <div class="border border-gray-200 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col">
+        <div class="p-5 md:p-6 pt-7 md:pt-8 flex flex-col flex-1">
+          <span class="text-crown-gold text-sm mb-3">★★★★★</span>
+          <p class="text-sm md:text-base text-text-dark mb-4 flex-1">"Ordered 4 litres of Crown Vinyl Matt in Soft White for our SACCO office repaint. Straightforward WhatsApp order, clear pricing, no back-and-forth. The walls have held up well even with heavy foot traffic through the year."</p>
+          <div class="flex items-center gap-3 mt-auto">
+            <img src="assets/testimonials/dp4.webp" alt="David K." class="w-11 h-11 rounded-full object-cover border-2 border-gray-200">
+            <div>
+              <div class="font-bold text-sm text-text-dark">David K.</div>
+              <div class="text-xs md:text-sm text-text-muted">Eldoret</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4: Purity K. — Mombasa — kitchen -->
+      <div class="border border-gray-200 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col">
+        <img src="assets/testimonials/crown-kitchen.webp" alt="Freshly painted kitchen with smooth matte finish" class="w-full aspect-[16/10] object-cover bg-gray-100">
+        <div class="p-5 md:p-6 flex flex-col flex-1">
+          <span class="text-crown-gold text-sm mb-3">★★★★★</span>
+          <p class="text-sm md:text-base text-text-dark mb-4 flex-1">"Absolutely in love with how our kitchen turned out! Crown Paints gave our walls the perfect, smooth matte finish to match our new cabinets. It feels warm, premium, and incredibly modern."</p>
+          <div class="flex items-center gap-3 mt-auto">
+            <img src="assets/testimonials/dp2.webp" alt="Purity K." class="w-11 h-11 rounded-full object-cover border-2 border-gray-200">
+            <div>
+              <div class="font-bold text-sm text-text-dark">Purity K.</div>
+              <div class="text-xs md:text-sm text-text-muted">Mombasa</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5: Mercy W. — Thika — living room side by side -->
+      <div class="border border-gray-200 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col">
+        <img src="assets/testimonials/side-by-side.webp" alt="Living room before and after, stained cream repainted in a warm shade" class="w-full aspect-[16/10] object-cover bg-gray-100">
+        <div class="p-5 md:p-6 flex flex-col flex-1">
+          <span class="text-crown-gold text-sm mb-3">★★★★★</span>
+          <p class="text-sm md:text-base text-text-dark mb-4 flex-1">"I used to think you needed a massive budget and brand-new furniture to change a room's vibe. This before-and-after proves otherwise! Just changing the old, stained cream paint to this beautiful warm shade made our existing sofas, pillows, and family photos pop."</p>
+          <div class="flex items-center gap-3 mt-auto">
+            <img src="assets/testimonials/dp6.webp" alt="Mercy W." class="w-11 h-11 rounded-full object-cover border-2 border-gray-200">
+            <div>
+              <div class="font-bold text-sm text-text-dark">Mercy W.</div>
+              <div class="text-xs md:text-sm text-text-muted">Thika</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6: Asha M. — Nakuru — delivery closer -->
+      <div class="border border-gray-200 rounded-xl overflow-hidden bg-white shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col">
+        <img src="assets/testimonials/crown-delivery.webp" alt="Crown Paints delivery arriving at a customer's compound" class="w-full aspect-[16/10] object-cover bg-gray-100">
+        <div class="p-5 md:p-6 flex flex-col flex-1">
+          <span class="text-crown-gold text-sm mb-3">★★★★★</span>
+          <p class="text-sm md:text-base text-text-dark mb-4 flex-1">"Highly recommend! Ordered our supply and it was delivered straight to the compound. The team was incredibly helpful in guiding us on which products work best for raw exterior walls vs. interior spaces."</p>
+          <div class="flex items-center gap-3 mt-auto">
+            <img src="assets/testimonials/dp1.webp" alt="Asha M." class="w-11 h-11 rounded-full object-cover border-2 border-gray-200">
+            <div>
+              <div class="font-bold text-sm text-text-dark">Asha M.</div>
+              <div class="text-xs md:text-sm text-text-muted">Nakuru</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ DELIVERY / ETA SECTION ============ -->
+<section class="bg-gradient-to-br from-crown-navy to-crown-navy-dark text-white py-12 md:py-16" id="delivery">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+      <div>
+        <div class="mb-6 md:mb-8">
+          <span class="inline-block text-crown-gold font-bold text-xs md:text-sm tracking-widest uppercase mb-3 md:mb-4">Delivery</span>
+          <h2 class="text-2xl md:text-3xl lg:text-4xl font-extrabold mb-3 md:mb-4 tracking-tight">We deliver to all 47 counties</h2>
+          <p class="text-white/75 text-base md:text-lg">Dispatched from Likoni Road, Industrial Area, Nairobi. Check your estimated delivery window before you order.</p>
+        </div>
+        <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 px-4 py-3 rounded-full text-sm md:text-base font-semibold">
+          🚚 Free delivery on all orders above KES 10,000
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-5 md:p-6 text-text-dark shadow-lg">
+        <h3 class="text-lg md:text-xl font-bold text-crown-navy mb-2">Find My Estimated Delivery Time</h3>
+        <p class="text-sm md:text-base text-text-muted mb-4 md:mb-5">We'll use your device's location to estimate how long delivery will take from Nairobi.</p>
+
+        <button id="locate-btn" class="w-full px-6 py-4 bg-crown-red text-white font-semibold text-sm md:text-base rounded-lg hover:bg-crown-red-dark transition-all shadow-sm mb-4">
+          Find My Estimated Delivery Time
+        </button>
+
+        <div id="locate-error" class="hidden bg-[#fdeceb] text-crown-red-dark rounded-lg p-3 md:p-4 text-sm mb-4"></div>
+
+        <div id="locate-result" class="hidden bg-crown-cream rounded-lg p-4 md:p-5 mb-4">
+          <div class="font-bold text-sm md:text-base text-crown-navy mb-1" id="eta-headline"></div>
+          <div class="text-xs md:text-sm text-text-muted" id="eta-sub"></div>
+        </div>
+
+        <div id="delivery-map" class="w-full h-48 md:h-56 rounded-lg overflow-hidden bg-gray-200"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="bg-crown-red py-12 md:py-16 text-center text-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-2xl md:text-3xl lg:text-4xl font-extrabold mb-3 md:mb-4 tracking-tight">Ready to find your colour?</h2>
+    <p class="text-white/90 mb-6 md:mb-8 text-base md:text-lg">Browse the full Crown colour chart, pick your shade, and order on WhatsApp in minutes.</p>
+    <a href="colour-chart.html" class="inline-block px-6 py-3 md:px-8 md:py-4 border-2 border-white text-white font-semibold text-sm md:text-base rounded-lg hover:bg-white hover:text-crown-red transition-all">
+      Explore the Colour Chart
+    </a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="bg-[#15152f] text-white/70 py-12 md:py-16 text-sm md:text-base">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 mb-8 md:mb-10">
+      <div class="col-span-2 md:col-span-1">
+        <h4 class="text-white text-base font-bold mb-3 md:mb-4">Crown Paints</h4>
+        <p class="max-w-xs text-xs md:text-sm">An authorized independent distributor of Crown Paints products, serving customers across all 47 counties in Kenya.</p>
+      </div>
+      <div>
+        <h4 class="text-white text-base font-bold mb-3 md:mb-4">Shop</h4>
+        <ul class="space-y-2">
+          <li><a href="colour-chart.html" class="hover:text-white transition-colors">Colour Chart</a></li>
+          <li><a href="products.html" class="hover:text-white transition-colors">Products</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white text-base font-bold mb-3 md:mb-4">Company</h4>
+        <ul class="space-y-2">
+          <li><a href="about.html" class="hover:text-white transition-colors">About Us</a></li>
+          <li><a href="#testimonials" class="hover:text-white transition-colors">Reviews</a></li>
+          <li><a href="#delivery" class="hover:text-white transition-colors">Order Info</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white text-base font-bold mb-3 md:mb-4">Contact</h4>
+        <ul class="space-y-2">
+          <li><a href="https://wa.me/254700000000" target="_blank" rel="noopener" class="hover:text-white transition-colors">WhatsApp Order</a></li>
+          <li>Likoni Road, Industrial Area, Nairobi</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-white/10 pt-6 md:pt-8 text-center text-xs md:text-sm">
+      <div class="mb-2">© 2026 Crown Paints. All rights reserved.</div>
+      <p class="text-white/55 text-xs max-w-xl mx-auto">Crown Paints is an authorized independent distributor of Crown Paints Kenya PLC products. This is not the official Crown Paints Kenya PLC website.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ MOBILE BOTTOM NAVIGATION ============ -->
+<nav class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 z-50 safe-area-inset-bottom">
+  <div class="flex items-center justify-around py-2">
+    <a href="index.html" class="flex flex-col items-center py-2 px-3 text-crown-red">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+      </svg>
+      <span class="text-xs mt-1 font-medium">Home</span>
+    </a>
+    <a href="colour-chart.html" class="flex flex-col items-center py-2 px-3 text-text-muted hover:text-crown-navy transition-colors">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path>
+      </svg>
+      <span class="text-xs mt-1 font-medium">Colours</span>
+    </a>
+    <a href="products.html" class="flex flex-col items-center py-2 px-3 text-text-muted hover:text-crown-navy transition-colors">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path>
+      </svg>
+      <span class="text-xs mt-1 font-medium">Products</span>
+    </a>
+    <a href="products.html" class="flex flex-col items-center py-2 px-3 text-text-muted hover:text-crown-navy transition-colors relative">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+      </svg>
+      <span class="text-xs mt-1 font-medium">Cart</span>
+      <span class="absolute top-1 right-2 w-2 h-2 bg-crown-red rounded-full"></span>
+    </a>
+  </div>
+</nav>
+
+<!-- ============ WHATSAPP FLOAT BUTTON ============ -->
+<a href="https://wa.me/254700000000?text=Hi%2C%20I%27d%20like%20to%20order%20Crown%20Paints" class="fixed bottom-20 md:bottom-6 right-4 md:right-6 w-14 h-14 md:w-16 md:h-16 bg-[#25d366] rounded-full flex items-center justify-center shadow-lg z-40 text-2xl md:text-3xl text-white hover:scale-105 transition-transform" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  💬
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+  // Mobile menu toggle
+  document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+  });
+
+  // Load products preview
+  async function loadProductsPreview() {
+    try {
+      const response = await fetch('products.json');
+      const products = await response.json();
+      
+      // Get first 3 products for preview
+      const previewProducts = products.slice(0, 3);
+      const grid = document.getElementById('products-preview-grid');
+      
+      previewProducts.forEach(product => {
+        const card = document.createElement('div');
+        card.className = 'bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all flex flex-col';
+        
+        const lowestPrice = product.prices && product.prices.length > 0 
+          ? Math.min(...product.prices.map(p => p.price))
+          : null;
+        
+        card.innerHTML = `
+          <img src="${product.image}" alt="${product.name}" class="w-full aspect-[4/3] object-cover bg-gray-100">
+          <div class="p-4 md:p-5 flex flex-col flex-1">
+            <h3 class="text-sm md:text-base font-bold text-crown-navy mb-2">${product.name}</h3>
+            <p class="text-xs md:text-sm text-text-muted mb-3 flex-1">${product.description}</p>
+            ${lowestPrice ? `<div class="text-sm font-semibold text-crown-red mb-3">From KES ${lowestPrice.toLocaleString()}</div>` : ''}
+            <a href="products.html" class="inline-block px-4 py-2 bg-crown-navy text-white font-semibold text-xs md:text-sm rounded-lg hover:bg-crown-navy-dark transition-all text-center">
+              View Details
+            </a>
+          </div>
+        `;
+        
+        grid.appendChild(card);
+      });
+    } catch (error) {
+      console.error('Error loading products:', error);
+    }
+  }
+
+  // Load products on page load
+  loadProductsPreview();
+
+  // Location functionality (from original main.js)
+  document.getElementById('locate-btn').addEventListener('click', function() {
+    if (!navigator.geolocation) {
+      document.getElementById('locate-error').textContent = 'Geolocation is not supported by your browser.';
+      document.getElementById('locate-error').classList.remove('hidden');
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      function(position) {
+        const lat = position.coords.latitude;
+        const lng = position.coords.longitude;
+        
+        // Calculate distance from Nairobi (approximate)
+        const nairobiLat = -1.286389;
+        const nairobiLng = 36.817223;
+        const distance = calculateDistance(lat, lng, nairobiLat, nairobiLng);
+        
+        // Estimate delivery time based on distance
+        let deliveryTime;
+        if (distance < 50) {
+          deliveryTime = '1-2 business days';
+        } else if (distance < 150) {
+          deliveryTime = '2-3 business days';
+        } else if (distance < 300) {
+          deliveryTime = '3-4 business days';
+        } else {
+          deliveryTime = '4-5 business days';
+        }
+
+        document.getElementById('eta-headline').textContent = `Estimated delivery: ${deliveryTime}`;
+        document.getElementById('eta-sub').textContent = `Distance from Nairobi: ${Math.round(distance)} km`;
+        document.getElementById('locate-result').classList.remove('hidden');
+        document.getElementById('locate-error').classList.add('hidden');
+
+        // Initialize map
+        if (typeof L !== 'undefined') {
+          const map = L.map('delivery-map').setView([lat, lng], 6);
+          L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+          }).addTo(map);
+          
+          L.marker([lat, lng]).addTo(map)
+            .bindPopup('Your location')
+            .openPopup();
+          
+          L.marker([nairobiLat, nairobiLng]).addTo(map)
+            .bindPopup('Nairobi (Dispatch point)');
+        }
+      },
+      function(error) {
+        let errorMessage = 'Unable to retrieve your location.';
+        if (error.code === 1) {
+          errorMessage = 'Location access was denied. Please enable location services.';
+        }
+        document.getElementById('locate-error').textContent = errorMessage;
+        document.getElementById('locate-error').classList.remove('hidden');
+        document.getElementById('locate-result').classList.add('hidden');
+      }
+    );
+  });
+
+  function calculateDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371; // Earth's radius in km
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+              Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+              Math.sin(dLon/2) * Math.sin(dLon/2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    return R * c;
+  }
+</script>
+</body>
+</html>
